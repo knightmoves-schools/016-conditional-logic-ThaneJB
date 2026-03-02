@@ -2,14 +2,14 @@
 public class Registration
 {
     // Add your code here
-    public string ValidateAge(int oldEnough){
+    public string ValidateAge(bool oldEnough){
         
-        if (oldEnough >= 18){
+        if (oldEnough){
             return "old enough";
         }
-        else{
-            return " ";
-        }
+        
+            return "";
+        
 
     }
 }
